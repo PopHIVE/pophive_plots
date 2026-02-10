@@ -1,0 +1,33 @@
+Package: PopHivePlots
+Title: PopHIVE Brand Styling for ggplot2 Visualizations
+Version: 0.1.0
+Authors@R: c(
+  person(given = "Shoa", family = "Moosavi",
+         email = "shoa.moosavi@yale.edu",
+         role = c("aut","cre")),
+  person(given = "Yiren", family = "Hou",
+         email = "yiren.hou@yale.edu",
+         role = c("aut"))
+	)
+Description: Provides standardized ggplot2 themes and color palettes consistent 
+    with PopHIVE branding. Simplifies the creation of publication-ready 
+    visualizations including choropleth maps, line graphs, dot plots, and bar charts
+    with a single main function that applies appropriate styling automatically.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    ggplot2 (>= 3.4.0),
+    showtext (>= 0.9),
+    sysfonts,
+    scales (>= 1.2.0)
+Suggests:
+    sf (>= 1.0),
+    ggstar (>= 1.0),
+    maps (>= 3.4),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/PopHIVE/PopHivePlots
+BugReports: https://github.com/PopHIVE/PopHivePlots/issues

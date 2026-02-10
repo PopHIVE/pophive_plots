@@ -1,0 +1,8 @@
+cat > .gitignore <<'EOF'
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+*.zip
+*.Rproj
+EOF
