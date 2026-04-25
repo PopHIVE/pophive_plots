@@ -31,7 +31,9 @@ You can install the development version of PopHivePlots from GitHub:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("PopHIVE/PopHivePlots")
+devtools::install_github(“PopHIVE/pophive_plots”)
+library(PopHivePlots)
+library(ggplot2)
 ```
 
 ## Setup
